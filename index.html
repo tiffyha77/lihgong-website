@@ -8,16 +8,17 @@
   <body>
     <header>
       <!--立功科技有限公司LOGO圖片-->
-      <img src="" alt="立功科技有限公司LOGO">
+      <img src="" alt="立功科技有限公司LOGO"> <!-- 暫時空白，待填入 -->
       <h1>立功科技有限公司</h1>
       <nav>
         <ul>
-          <li><a href="#about">關於我們</a></li>
+          <li><a href="about.html">關於我們</a></li>
           <li><a href="#services">服務項目</a></li>
           <li><a href="#contact">聯絡我們</a></li>
         </ul>
       </nav>
     </header>
+
     <!--選單-->
     <main>
       <!--關於我們-->
@@ -25,6 +26,7 @@
         <h2>關於我們</h2>
         <p>We'll fill in 關於我們 later.</p>
       </section>
+
       <!--服務項目-->
       <section id="services">
         <h2>服務項目</h2>
@@ -33,14 +35,15 @@
           <li>服務項目2</li>
           <li>服務項目3</li>
         </ul>
-        <a href="#cases">成功案例</a>
+        <a href="about.html#cases">成功案例</a> <!-- 連結到 about.html 頁面的成功案例 -->
         <!--成功案例 服務項目的子區塊-->
         <div id="cases">
           <h3>成功案例</h3>
           <p>fill in 成功案例 later.</p>
         </div>
       </section>
-     </main> 
+    </main> 
+
     <footer>
       <!--聯絡我們-->
       <section id="contact">
@@ -49,10 +52,10 @@
         <!--聯絡我們的表單-->
         <form>
           <label for="name">姓名</label>
-          <input id="name" name="name" type="text">
+          <input id="name" name="name" type="text" required>
           <br>
           <label for="email">Email</label>
-          <input id="email" name="email" type="email">
+          <input id="email" name="email" type="email" required>
           <br>
           <label for="message">留言</label>
           <textarea id="message" name="message" rows="4" cols="30"></textarea>
